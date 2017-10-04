@@ -56,7 +56,7 @@ class PdfThumbnail extends FormatterBase {
       $summary[] = $this->t('No settings');
     }
     else {
-      $summary[] = t('Scale: @scale, Widht: @width, Height: @height', [
+      $summary[] = t('Scale: @scale, Width: @width, Height: @height', [
         '@scale' => $scale,
         '@width' => $width,
         '@height' => $height

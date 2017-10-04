@@ -61,7 +61,7 @@ class PdfDefault extends FormatterBase {
       $summary[] = $this->t('No settings');
     }
     else {
-      $summary[] = t('Use pdf.js even users have PDF reader plugin: @keep_pdfjs', ['@keep_pdfjs' => $keep_pdfjs ? t('Yes') : t('No')]) . '. ' . t('Widht: @width , Height: @height', [
+      $summary[] = t('Use pdf.js even users have PDF reader plugin: @keep_pdfjs', ['@keep_pdfjs' => $keep_pdfjs ? t('Yes') : t('No')]) . '. ' . t('Width: @width , Height: @height', [
           '@width' => $width,
           '@height' => $height
         ]);
