@@ -8,7 +8,7 @@
         var file = canvas.attributes.file.value;
         PDFJS.getDocument(file).then(function(pdf) {
           pdf.getPage(1).then(function(page) {
-            var scale = (canvas.attributes.scale) ? canvas.attributes.scale.value : 1;;
+            var scale = (canvas.attributes.scale) ? canvas.attributes.scale.value : 1;
             var viewport = page.getViewport(scale);
             var context = canvas.getContext('2d');
             canvas.height = viewport.height;
