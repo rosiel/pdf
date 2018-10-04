@@ -2,5 +2,5 @@ name: PDF
 description: 'Display PDF file in Drupal without external readers and plugins.'
 core: 8.x
 dependencies:
-  - file
+  - drupal:file
 type: module
